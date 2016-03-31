@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2007-2016 Frank Mertens.
+ * Copyright (C) 2015-2016 Frank Mertens.
  *
- * Distribution and use is allowed under the terms of the ColibriCode license
+ * Distribution and use is allowed under the terms of the CoreComponents license
  * (see cc/LICENSE-zlib).
  *
  */
@@ -13,7 +13,7 @@
 #include <map>
 #include <memory>
 
-namespace tt {
+namespace cc {
 
 using std::list;
 using std::set;
@@ -163,4 +163,4 @@ inline void ConnectionEndPoint::reverseDisconnect(ConnectionEndPoint *signal, Re
     recipient->triggers_->erase(signal);
 }
 
-} // namespace tt
+} // namespace cc

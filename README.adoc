@@ -1,0 +1,23 @@
+= Core Components (Lite)
+
+*cclite* is an experimental library of core generic C++ components.
+
+== Installation
+
+Each example can be build indiviually:
+----
+$ make testConnectionLifeTime
+----
+
+To build everything you need Qt5:
+----
+$ sudo apt-get install qtbase5-dev-tools
+----
+
+== Docs
+
+Look at the shipped example programs.
+
+There's a slide deck comparing the event system (aka signals and slots) of cclite and Qt:
+
+http://cyblogic.com/talks/cclite-signals

@@ -1,7 +1,7 @@
+#include <cc/Event>
 #include <iostream>
-#include <tt/event>
 
-using namespace tt;
+using namespace cc;
 using namespace std;
 
 class LineEdit: public Recipient
@@ -18,7 +18,7 @@ public:
         text_(text),
         textChanged_(new Event<string>)
     {
-        textChanged_->connect(this, &LineEdit::repaint);
+        textChanged()->connect(this, &LineEdit::repaint);
     }
 
     string text() const { return text_; }
@@ -29,7 +29,7 @@ public:
         textChanged_->notify(text_);
     }
 
-    Event<string> *textChanged() { return textChanged_.get(); }
+    Event<string> *textChanged() const { return textChanged_.get(); }
 };
 
 struct CheckInput: public Recipient
