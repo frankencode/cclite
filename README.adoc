@@ -4,7 +4,7 @@
 
 == Installation
 
-Each example can be build indiviually:
+Each example can be build individually:
 ----
 $ make testConnectionLifeTime
 ----
@@ -16,7 +16,7 @@ $ sudo apt-get install qtbase5-dev-tools
 
 == Docs
 
-Look at the shipped example programs.
+Look at the shipped test programs.
 
 There's a slide deck comparing the event system (aka signals and slots) of cclite and Qt:
 
