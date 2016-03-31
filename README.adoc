@@ -1,6 +1,6 @@
 = Core Components (Lite)
 
-*cclite* is an experimental library of core generic C++ components.
+*cclite* is an experimental library of core generic C++1x components.
 
 == Installation
 
