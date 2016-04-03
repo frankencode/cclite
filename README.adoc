@@ -20,4 +20,4 @@ Look at the shipped test programs.
 
 There's a slide deck comparing the event system (aka signals and slots) of cclite and Qt:
 
-http://cyblogic.com/talks/cclite-signals/cclite_signals.html
+http://cyblogic.com/talks/cclite-signals/
